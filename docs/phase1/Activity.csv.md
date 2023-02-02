@@ -1,4 +1,4 @@
-### Events.csv
+### Activities.csv
   - Point Info
   - Reservation
   - Duration
