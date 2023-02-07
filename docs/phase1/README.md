@@ -1,3 +1,4 @@
+## 1. Document Contents
 ### Activities.csv
   - Point Info
   - Reservation
@@ -27,3 +28,16 @@
    * A list of event Point Near by restarant info with Google stars > 4 & Google review counts > 100
    * A list of event point Near by hotel info with Google stars > 4 & Google review counts > 100
    * Scenary point, restarant & hotel info contains Name, telephone, Google stars, Google review counts
+
+## 2. Activitie File Update Tool
+### Crawler
+    * Crawl famuous Travel Sites
+    * Crawl Google Map for tourist attaction, Stars, Reviews
+### AI Request tool
+    * ChatGPT
+    * Google Search Engine
+
+## 3. Google Map Integration
+    * 1. Write Crawler like End user uses browser access Google Map
+    * 2. Use [Directions API](https://developers.google.com/maps/documentation/directions/get-directions?hl=zh-tw)
+    * 3. [Get reviews from google map api](https://stackoverflow.com/questions/16415827/get-reviews-from-google-map-api)
