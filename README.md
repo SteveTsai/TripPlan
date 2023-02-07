@@ -5,6 +5,10 @@ TripPlan is a project to help you to plan a trip before you go.
     When I plan to a family trip, I need to search for several tourist attractions, resterants, hotels, 
     and google routes back and forth. 
     I would like to have a tool to help me plan a trip and share to my family members.
+#### Target User:
+    DIY ueser
+    Tour Guide
+    訪談：問題 痛點 解決方案
 ####  Goal: 
     Meet My Personal Need: Output Trip Plan text File and google route url to share to others
 ####  Architecture:
