@@ -37,5 +37,5 @@ TripPlan is a project to help you to plan a trip before you go.
 ## Phase 3: Release to Public
 ## Phase 4: Receive Public Feedback and Continue Development Cycle
 ### Reference:
-  1. 來去遊 TimePipe Go: https://www.timepipe.com/mytrip
-  2. inspirock: https://www.inspirock.com/
+  1. 來去遊 [TimePipe Go](https://www.timepipe.com/mytrip)
+  2. [inspirock](https://www.inspirock.com/)

@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/FireStore/bin/Debug/net6.0/FireStore.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/FireStore",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "env": {
+                // https://stackoverflow.com/questions/48719868/accessing-google-cloud-datastore-locally-from-asp-net-throws-grpc-core-rpcexcept
+                // https://console.cloud.google.com/iam-admin/serviceaccounts/details/107275017296208099182/keys?hl=zh-tw&project=vrrobot-174303
+                //"GOOGLE_APPLICATION_CREDENTIALS":"C:/Users/Steve/AppData/Roaming/gcloud/application_default_credentials.json"
+                //"GOOGLE_APPLICATION_CREDENTIALS":"C:/Users/Steve/AppData/Roaming/gcloud/vrrobot-174303-45ba0b89e598.json"
+                "GOOGLE_APPLICATION_CREDENTIALS":"C:/Users/Steve/AppData/Roaming/gcloud/vrrobot-174303-3f13518ffe52.json"
+                //"GOOGLE_APPLICATION_CREDENTIALS":"C:\\Users\\Steve\\AppData\\Roaming\\gcloud\\vrrobot-174303-3f13518ffe52.json"
+            }
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}

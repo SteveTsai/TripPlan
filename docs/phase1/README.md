@@ -38,6 +38,6 @@
     * Google Search Engine
 
 ## 3. Google Map Integration
-    * 1. Write Crawler like End user uses browser access Google Map
-    * 2. Use [Directions API](https://developers.google.com/maps/documentation/directions/get-directions?hl=zh-tw)
-    * 3. [Get reviews from google map api](https://stackoverflow.com/questions/16415827/get-reviews-from-google-map-api)
+   1. Write Crawler like End user uses browser access Google Map
+   2. Use [Map AIP including Directions API, and Places API](https://developers.google.com/maps?hl=zh-tw)
+   3. [Get reviews from google map api](https://stackoverflow.com/questions/16415827/get-reviews-from-google-map-api)
