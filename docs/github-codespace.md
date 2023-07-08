@@ -9,4 +9,4 @@
   - Code change in the CodeSpace 
   - Commit code & Push
   - github.com dev diagram
-  - ![mindmap](./images/github-mind.png)
+  - ![mindmap](./images/github-codespace-dev-mind.png)
