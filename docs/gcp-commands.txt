@@ -1,0 +1,10 @@
+ // y721_tsai@cloudshell:~/cloudshell_open/nodejs-getting-started/bookshelf (vrrobot-174303)$
+
+// set current project for this terminal 
+gcloud config set project vrrobot-174303
+
+// build docker images and submit to container registry.
+gcloud builds submit --tag gcr.io/vrrobot-174303/bookshelf .
+
+// deploy cloud run with docker image
+gcloud run deploy bookshelf --image gcr.io/vrrobot-174303/bookshelf --region asia-east1 --allow-unauthenticated
