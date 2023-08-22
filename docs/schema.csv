@@ -1,0 +1,18 @@
+user account table,,,,,
+,,,,,
+user_name,pwd_hash,created_datetime,user_id,,password
+ben,,,1,,ben123
+steve,,,2,,steve
+teacher,,,3,,teacher
+member1,,,4,,
+memeber2,,,5,,
+,,,,,
+,,,,,
+,,,,,
+favorite table,,,,,
+,,,,,
+user_id,type,name,web_site,google_map_url,
+1,scenary,圓山大飯店,,,
+2,restarant,圓山大飯店,,,
+3,route,,,,
+4,hotel,圓山大飯店,,,
